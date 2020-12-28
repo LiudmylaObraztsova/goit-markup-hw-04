@@ -146,8 +146,24 @@ img {
   padding-top: 200px;
   padding-bottom: 200px;
 
-  background-color: #2f303a;
   text-align: center;
+}
+
+.overlay {
+  max-width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #2f303a;
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../image/hero-img.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
 
 .hero-title {
@@ -316,6 +332,10 @@ img {
   margin-bottom: 10px;
 }
 
+.clients {
+  padding: 94px;
+}
+
 /* footer */
 footer {
   padding-top: 60px;
@@ -342,7 +362,7 @@ footer {
   color: var(--primary-white-color);
 
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -352,7 +372,7 @@ footer {
   color: rgba(255, 255, 255, 0.6);
 
   text-decoration: none;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -442,7 +462,7 @@ footer {
 .title-second {
   color: var(--title-text-color);
 
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
