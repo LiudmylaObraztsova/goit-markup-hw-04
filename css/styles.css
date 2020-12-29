@@ -141,6 +141,25 @@ img {
   color: var(--accent-color);
 }
 
+.link {
+  display: inline-flex;
+  align-items: center;
+}
+
+.icon {
+  fill: var(--title-text-color);
+}
+
+.icon-envelope {
+  margin-right: 10px;
+  fill: currentColor;
+}
+
+.icon-smartphone {
+  margin-right: 10px;
+  fill: currentColor;
+}
+
 /* Секция герой*/
 .hero {
   padding-top: 200px;
@@ -162,7 +181,7 @@ img {
     ),
     url("../image/hero-img.jpg");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-position: center;
 }
 
@@ -334,6 +353,48 @@ img {
 
 .clients {
   padding: 94px;
+}
+
+.clients .section-title {
+  margin-bottom: 50px;
+}
+
+.thumb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  fill: #afb1b8;
+}
+
+.clients-logo {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  margin-right: 30px;
+}
+
+.clients-logo:last-child {
+  margin-right: 0;
+}
+
+.link-client {
+  display: flex;
+  width: 170px;
+  height: 90px;
+  align-items: center;
+  justify-content: center;
+  fill: currentColor;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.link-client:hover,
+.link-client:focus {
+  fill: #2196f3;
 }
 
 /* footer */
